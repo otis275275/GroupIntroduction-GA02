@@ -858,10 +858,6 @@ body {
         justify-content: center;
         align-items: center;
     }
-}
-
-/* Tablet */
-@media (min-width: 740px) and (max-width: 1023px) {
     .member-hero-content {
         flex-direction: column;
         align-items: center;
@@ -874,6 +870,11 @@ body {
         text-align: center;
         min-width: 0;
     }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
 }
 
 /* Mobile */
